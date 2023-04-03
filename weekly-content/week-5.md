@@ -2,7 +2,7 @@
 layout: default
 title: Week 5 - How To Repeat Actions
 nav_order: 5
-permalink: /weekly-content/week-4
+permalink: /weekly-content/week-5
 ---
 
 # Week 5 - How To Repeat Actions
