@@ -112,4 +112,24 @@ web_page_content = web_page_content.decode("UTF-8")
 print(web_page_content)
 ```
 
+### Writing Text to a File
+
+The `open()` function opens a file and returns a file-like object.
+
+The `open()` function takes two arguments:
+
+- The name of the file to open
+- The mode to open the file in ('r' for read, 'w' for write, 'a' for append)
+
+```python
+# Open a file for writing
+my_file = open("my_file.txt", "w")
+
+# Write some text to the file
+my_file.write("Hello World!")
+
+# Close the file
+my_file.close()
+```
+
 
